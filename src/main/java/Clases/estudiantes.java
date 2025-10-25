@@ -4,6 +4,15 @@ public class estudiantes {
     private Integer id;
     private String name;
     private Integer age;
+    private String sexo;
+
+    public String getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
+    }
     
      public Integer getId() {
         return id;
